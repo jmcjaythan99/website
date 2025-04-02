@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+	<link rel="stylesheet" href="styles.css">
+    <title>Shop - Sip & Soothe</title>
+   
+</head>
+<body>
+	<div class="navbar">
+			<div class="logo-container">
+			  <a href="homepage.html">
+				  <div class="logo">
+					 <img src="images/logo.png" alt="Logo">
+				  </div>
+			  </a>
+			  <div class="logo-text">Sip & Soothe</div>
+			</div>
+
+			<div class="search-container">
+				<img src="images/search.png" alt="Search" style="width: 24px; height: 24px;">
+				<input type="text" placeholder="Search products...">
+			</div>
+
+			<div class="icons">
+				<a href="#" class="icon" id="signin-btn">
+					<img src="images/account.png" alt="Account">
+					Sign In/Account
+				</a>
+				<a href="#" class="icon">
+					<img src="images/cart.png" alt="Cart">
+					My Cart
+				</a>
+			</div>
+		</div>
+
+		<!-- Navigation Menu -->
+		<div class="nav-menu">
+			<a href="homepage.html">Home</a>
+			<a href="about.html">About</a>
+			<a href="contact.html">Contact</a>
+		</div>
+	
+		
+	
+	<!-- Modal -->
+		<div id="signin-modal" class="modal">
+			<div class="modal-content">
+				<span class="close" id="close-modal">&times;</span>
+				<h2>Sign In to Sip & Soothe</h2>
+				<input type="email" placeholder="Enter your email" required>
+				<input type="password" placeholder="Enter your password" required>
+				<button>Sign In</button>
+			</div>
+		</div>
+		
+		
+	<section class="shop-section">
+        <h2>Medicinal Teas</h2>
+
+        <div class="product-container">
+            <div class="product-card"      
+				data-description="A warming and spicy tea known for its ability to aid digestion, soothe nausea, and reduce inflammation. It also helps boost immunity and improve circulation, making it great for overall wellness.">
+
+                <img src="images/ginger-tea.jpg" alt="Product 1">
+                <div class="product-info">
+                    <h3>Ginger Tea 150 ml (5 grams per pack)</h3>
+                    <p>₱40</p>
+                </div>
+				<div class="product-hover">
+					<button class="add-to-cart">Add to Cart</button>
+					<button class="quick-view">Quick View</button>
+				</div>
+              
+            </div>
+			
+            <div class="product-card"
+				data-description="A naturally sweet and aromatic tea packed with antioxidants that support heart health and regulate blood sugar levels. Its anti-inflammatory properties may also help reduce muscle soreness and joint pain.">
+
+                <img src="images/cinnamon-tea.jpg" alt="Product 2">
+                <div class="product-info">
+                    <h3>Cinnamon Tea 150 ml (5 grams per pack)</h3>
+                    <p>₱35</p>
+                </div>
+				<div class="product-hover">
+					<button class="add-to-cart">Add to Cart</button>
+					<button class="quick-view">Quick View</button>
+				</div>
+                
+            </div>
+
+            <div class="product-card"
+				data-description="A fruity and tangy tea rich in vitamin C and antioxidants, known for boosting the immune system and promoting healthy skin. It also has anti-inflammatory properties that can support joint health.">
+
+                <img src="images/rosehip-tea.jpg" alt="Product 3">
+                <div class="product-info">
+                    <h3>Rosehip Tea 150 ml (5 grams per pack)</h3>
+                    <p>₱39</p>
+                </div>
+                <div class="product-hover">
+					<button class="add-to-cart">Add to Cart</button>
+					<button class="quick-view">Quick View</button>
+				</div>
+            </div>
+
+            <div class="product-card"
+				data-description="A well-known immune-boosting herbal tea that helps prevent and shorten colds and infections. It also has antibacterial properties that can support overall respiratory health.">
+                <img src="images/echinacea-tea.jpg" alt="Product 3">
+                <div class="product-info">
+                    <h3>Echinacea Tea 150 ml (5 grams per pack)</h3>
+                    <p>₱41</p>
+                </div>
+                <div class="product-hover">
+					<button class="add-to-cart">Add to Cart</button>
+					<button class="quick-view">Quick View</button>
+				</div>
+            </div>
+			
+			<div class="product-card"
+				data-description="A detoxifying tea known for its ability to support liver health and aid in digestion. It contains silymarin, a compound that helps protect the liver from toxins and inflammation.">
+                <img src="images/milkthistel-tea.jpg" alt="Product 1">
+                <div class="product-info">
+                    <h3>Milk Thistle Tea 150 ml (5 grams per pack)</h3>
+                    <p>₱30</p>
+                </div>
+                <div class="product-hover">
+					<button class="add-to-cart">Add to Cart</button>
+					<button class="quick-view">Quick View</button>
+				</div>
+            </div>
+			
+			
+			<div class="product-card"
+				data-description="A slightly bitter yet beneficial tea packed with anti-inflammatory and antimicrobial properties. It is commonly used to help with pain relief, digestion, and immune system support.">
+                <img src="images/guyabanoleaf-tea.jpg" alt="Product 1">
+                <div class="product-info">
+                    <h3>Guyabano Leaf Tea 150 ml (5 grams per pack)</h3>
+                    <p>₱20</p>
+                </div>
+				<div class="product-hover">
+					<button class="add-to-cart">Add to Cart</button>
+					<button class="quick-view">Quick View</button>
+				</div>
+            </div>
+			
+			<div class="product-card"
+				data-description="A nutrient-rich tea known for aiding digestion, reducing bloating, and supporting blood sugar regulation. It also has antibacterial properties that promote oral health and overall wellness.">
+                <img src="images/guavaleaf-tea.jpeg" alt="Product 1">
+                <div class="product-info">
+                    <h3>Guava Leaf Tea 150 ml (5 grams per pack)</h3>
+                    <p>₱28</p>
+                </div>
+				<div class="product-hover">
+					<button class="add-to-cart">Add to Cart</button>
+					<button class="quick-view">Quick View</button>
+				</div>
+            </div>
+			
+			<div class="product-card"
+				data-description=" A light and citrusy tea rich in antioxidants that support heart health and improve circulation. It is also known for its mild sedative properties, making it great for relaxation and stress relief.">
+                <img src="images/orangeleaf-tea.jpg" alt="Product 1">
+                <div class="product-info">
+                    <h3>Orange Leaf Tea 150 ml (5 grams per pack)</h3>
+                    <p>₱28</p>
+                </div>
+                <div class="product-hover">
+					<button class="add-to-cart">Add to Cart</button>
+					<button class="quick-view">Quick View</button>
+				</div>
+            </div>
+			
+		
+        </div>
+
+ 
+    </section>
+	
+	
+	<section class="shop-section">
+        <h2>Relaxing Teas</h2>
+
+        <div class="product-container">
+            <div class="product-card"
+				data-description="A gentle and floral tea widely known for its calming effects on the mind and body. It helps reduce stress, promote relaxation, and improve sleep quality.">
+                <img src="images/chamomile-tea.jpg" alt="Product 1">
+                <div class="product-info">
+                    <h3>Chamomile Tea 150 ml (5 grams per pack)</h3>
+                    <p>₱40</p>
+                </div>
+				<div class="product-hover">
+					<button class="add-to-cart">Add to Cart</button>
+					<button class="quick-view">Quick View</button>
+				</div>
+              
+            </div>
+			
+            <div class="product-card"
+				data-description=" A soothing and fragrant tea that helps reduce anxiety, ease headaches, and improve sleep. Its natural relaxing properties make it a perfect bedtime drink.">
+                <img src="images/lavender-tea.jpg" alt="Product 2">
+                <div class="product-info">
+                    <h3>Lavender Tea 150 ml (5 grams per pack)</h3>
+                    <p>₱35</p>
+                </div>
+				<div class="product-hover">
+					<button class="add-to-cart">Add to Cart</button>
+					<button class="quick-view">Quick View</button>
+				</div>
+                
+            </div>
+
+            <div class="product-card"
+				data-description="A citrusy and refreshing tea that helps with digestion, bloating, and stress relief. It also has antibacterial properties that support a healthy immune system.">
+                <img src="images/lemongrass-tea.jpg" alt="Product 3">
+                <div class="product-info">
+                    <h3>Lemon Grass Tea 150 ml (5 grams per pack)</h3>
+                    <p>₱39</p>
+                </div>
+                <div class="product-hover">
+					<button class="add-to-cart">Add to Cart</button>
+					<button class="quick-view">Quick View</button>
+				</div>
+            </div>
+
+            <div class="product-card"
+				data-description="A delicately floral tea with a soothing aroma that helps reduce stress and promote relaxation. It is also packed with antioxidants that support heart health and overall well-being.">
+                <img src="images/jasmin-tea.jpg" alt="Product 3">
+                <div class="product-info">
+                    <h3>Jasmin Tea 150 ml (5 grams per pack)</h3>
+                    <p>₱41</p>
+                </div>
+                <div class="product-hover">
+					<button class="add-to-cart">Add to Cart</button>
+					<button class="quick-view">Quick View</button>
+				</div>
+            </div>
+			
+			<div class="product-card"
+				data-description="A tart and vibrant red tea that is high in antioxidants and known for lowering blood pressure. It also has calming effects that can help reduce stress and promote relaxation.">
+                <img src="images/hibiscus-tea.jpg" alt="Product 1">
+                <div class="product-info">
+                    <h3>Hibiscus Tea 150 ml (5 grams per pack)</h3>
+                    <p>₱30</p>
+                </div>
+                <div class="product-hover">
+					<button class="add-to-cart">Add to Cart</button>
+					<button class="quick-view">Quick View</button>
+				</div>
+            </div>
+			
+			
+			<div class="product-card"
+				data-description="A naturally sedative tea that helps calm the nervous system and improve sleep quality. It is often used to reduce anxiety, restlessness, and mild insomnia.">
+                <img src="images/passionflower-tea.jpg" alt="Product 1">
+                <div class="product-info">
+                    <h3>Passion Flower Tea 150 ml (5 grams per pack)</h3>
+                    <p>₱20</p>
+                </div>
+				<div class="product-hover">
+					<button class="add-to-cart">Add to Cart</button>
+					<button class="quick-view">Quick View</button>
+				</div>   
+            </div>
+			
+			<div class="product-card"
+				data-description="A striking blue tea known for its mood-enhancing and stress-reducing properties. It is also packed with antioxidants that support brain health and cognitive function.">
+                <img src="images/butterflypeaflower-tea.jpg" alt="Product 1">
+                <div class="product-info">
+                    <h3>Butterfly Pea Flower Tea 150 ml (5 grams per pack)</h3>
+                    <p>₱28</p>
+                </div>
+				<div class="product-hover">
+					<button class="add-to-cart">Add to Cart</button>
+					<button class="quick-view">Quick View</button>
+				</div>
+            </div>
+			
+			<div class="product-card"
+				data-description="A cool and refreshing tea that helps relieve tension, reduce headaches, and soothe digestion. Its natural menthol content also makes it effective for relieving nasal congestion and stress.">
+                <img src="images/tea-peppermint.jpg" alt="Product 1">
+                <div class="product-info">
+                    <h3>Guava Leaf Tea 150 ml (5 grams per pack)</h3>
+                    <p>₱28</p>
+                </div>
+                <div class="product-hover">
+					<button class="add-to-cart">Add to Cart</button>
+					<button class="quick-view">Quick View</button>
+				</div>
+            </div>
+			
+			
+			
+        </div>
+
+ 
+    </section>
+	<!-- Quick View Modal -->
+	<div id="quickview-modal" class="quickview-modal">
+		<div class="quickview-content">
+			<span class="quickview-close">&times;</span>
+			<div class="quickview-details">
+				<div class="quickview-image">
+					<img id="quickview-img" src="" alt="Product Image">
+				</div>
+				<div class="quickview-info">
+					<h2 id="quickview-title"></h2>
+					<p id="quickview-description">A soothing and relaxing herbal tea.</p>
+					<p class="quickview-price"><strong id="quickview-price"></strong></p>
+					<div class="quickview-actions">
+						<label>Quantity:</label>
+						<input type="number" id="quickview-quantity" value="1" min="1">
+						<button class="add-to-cart">Add to Cart</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	
+	<!-- Cart Sidebar -->
+	<div id="sidebar-cart" class="cart-sidebar">
+		<button id="close-cart" class="close-cart">&times;</button>
+		<h2>Your Cart (<span id="cart-count">0</span>)</h2>
+		
+		<!-- Cart Items -->
+		<div id="cart-items-container">
+			<ul id="cart-items"></ul>
+		</div>
+
+		<!-- Cart Footer (Subtotal & Checkout Button) -->
+		<div class="cart-footer">
+			<button id="checkout-btn" class="checkout">Checkout</button>
+		</div>
+	</div>
+
+	<!-- Cart Overlay -->
+	<div id="cart-overlay" class="cart-overlay"></div>
+	
+<footer>
+	<!-- Footer Section -->
+    <div class="footer-container">
+        <div class="about">
+            <h3>ABOUT SIP & SOOTHE</h3>
+            <p>Established over twenty years ago, we are a specialist and family-run herb nursery offering a fantastic range of culinary, medicinal, and aromatic herbs for sale. Grown naturally and in harmony with the seasons as well as the local environment and wildlife, we supply strong and healthy plants that flourish in your home or garden.</p>
+            <p>Contact us: <a href="tel:01799540695">01799 540695</a> or <a href="mailto:herbs@herbalhaven.com">cs@sip&soothe.com</a></p>
+        </div>
+        <div class="socials">
+            <h3>FOLLOW US</h3>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-x-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+        <div class="newsletter">
+            <h3>SUBSCRIBE TO OUR NEWSLETTER</h3>
+            <p>Enter your email address below to receive product news, advice, and special offers straight to your inbox.</p>
+            <form>
+                <input type="email" placeholder="Your email" required>
+                <button type="submit">Subscribe</button>
+            </form>
+        </div>
+    </div>
+    
+		<div class="footer-bottom">
+        <p>&copy; 2025 Sip & Soothe | In collaboration of Group 1</p>
+        <div class="payment-methods">
+			<h3>We accept</h3>
+            <img src="images/ame.png" alt="Amex">
+			<img src="images/mastercard.png" alt="Mastercard">
+			<img src="https://upload.wikimedia.org/wikipedia/commons/b/b5/PayPal.svg" alt="PayPal">
+			<img src="images/visa.png" alt="Visa">
+        </div>
+		</div>
+</footer>
+
+<script src="scripts/signin_modal.js"></script>
+<script src="scripts/quickview_modal.js"></script>
+<script src="scripts/addtocart.js"></script>
+</body>
+</html>
